@@ -59,13 +59,8 @@ nav ul{
   margin-top: 80px;
   font-size: 50px;
 }
-.flex-container{
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 60px;
-}
+
+
 
 
 #schedule-title, #con-title{
