@@ -53,17 +53,18 @@ nav ul{
   font-family: 'Roboto Mono', monospace;
   text-align: center;
 }
-#about-id{
+#about{
   font-family: 'Roboto Mono', monospace;
   text-align: center;
-  margin-top: 80px;
-  font-size: 50px;
+  font-size: 80px;
+  margin-bottom: 0px;
+  margin-top: 30px;
 }
 
 
 
 
-#schedule-title, #con-title{
+#schedule-title {
   padding-top: 120px;
   text-align: center;
   font-family: 'Roboto Mono', monospace;
