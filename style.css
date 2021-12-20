@@ -9,8 +9,7 @@ nav li{
 }
 .title{
   position: absolute;
-  top: 30%;
-  left:10%;
+  margin-left: 40px;
   color: white;
   font-family: 'Roboto Mono', monospace;
   font-size: 30px;
@@ -45,7 +44,7 @@ nav ul{
 }
 .sub-title{
   position: absolute;
-  top: 75%;
+
   color: #FFC300;
   left: 50%;
   border-style: solid;
@@ -74,4 +73,13 @@ nav ul{
   text-align: center;
   font-family: 'Roboto Mono', monospace;
   font-size: 60px;
+}
+.container{
+
+}
+.container div{
+  display: flex;
+  justify-content: space-between;
+  margin-top: -300px;
+  justify-content: center;
 }
