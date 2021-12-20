@@ -1,0 +1,77 @@
+body{
+  margin: 0;
+}
+
+
+nav li{
+  display: inline;
+  margin-bottom: 20px;
+}
+.title{
+  position: absolute;
+  top: 30%;
+  left:10%;
+  color: white;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 30px;
+  letter-spacing: 10px;
+  font-weight: lighter;
+}
+nav a{
+  font-family: 'Roboto Mono', monospace;
+  margin-right: 40px;
+  text-decoration: none;
+  color: black;
+
+}
+nav a:hover{
+  text-decoration: underline;
+}
+
+nav ul{
+
+}
+.logo {
+    display: inline-block;
+    vertical-align: top;
+    width: 14%;
+    float: left;
+
+        /* if you want it vertically middle of the navbar. */
+}
+.link{
+  padding-top: 30px;
+  float: right;
+}
+.sub-title{
+  position: absolute;
+  top: 75%;
+  color: #FFC300;
+  left: 50%;
+  border-style: solid;
+  padding-right: 40px;
+  padding-left: 40px;
+  font-family: 'Roboto Mono', monospace;
+  text-align: center;
+}
+#about-id{
+  font-family: 'Roboto Mono', monospace;
+  text-align: center;
+  margin-top: 80px;
+  font-size: 50px;
+}
+.flex-container{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 60px;
+}
+
+
+#schedule-title, #con-title{
+  padding-top: 120px;
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 60px;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Science Club</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+</style>
+
+  </head>
+  <body>
+    <nav>
+
+      <ul>
+        <li><img class="logo" src="assets/new-sci-img.png"></li>
+        <li class="link"><a href="contact.html">Contact</a></li>
+        <li class="link"><a href="schedule.html">Schedule</a></li>
+        <li class="link"><a href="index.html">Home</a></li>
+      </ul>
+    </nav>
+    <div class="container">
+      <img src="assets/back-sci.jpg" alt="science-img" width="100%" height="500px;">
+      <div class="title"><h1>L.C.<br> SCIENCE CLUB</h1></div>
+      <div class="sub-title"><h4>WELCOME TO LEWIS AND CLARK SCIENCE CLUB WEBSITE!</h4></div>
+    </div>
+
+    <div class="flex-container">
+      <div class="pun-1" class="item-1">
+        <img src="assets/sci-pun-1.png" class="pun-spec" width="200px" alt="">
+      </div>
+      <div class="flex-item" class="item-2">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+          laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+          voluptate velit esse cillum</p>
+      </div>
+      <div class="pun-2" class="item-3">
+        <img src="assets/sci-pun-2.jpg" class="pun-spec" width="200px" alt="">
+      </div>
+    </div>
+
+    <style>
+    @media (max-width:768px) {
+      .flex-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+         flex-flow:column wrap;
+      }
+      .pun-1{
+        margin-top: 60px;
+        order: 3;
+        margin-bottom: 60px;
+      }
+      .pun-2{
+        order: 3;
+      }
+      .flex-item{
+        order: 1;
+        margin-top: 20px;
+      }
+
+
+    }
+    @media (min-width: 769px) {
+      .flex-container{
+        justify-content:space-around;
+        display: flex;
+      }
+    }
+
+      .flex-container div{
+
+      }
+      .flex-item{
+        text-align: center;
+        flex-basis: 40%;
+        border: 1px solid black;
+      }
+      .pun-spec{
+        border: 2px solid black;
+      }
+
+    </style>
+
+
+
+  </body>
+</html>
