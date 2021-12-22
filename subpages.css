@@ -1,0 +1,36 @@
+body{
+
+}
+hr{
+  background-color: black;
+  height: 4px;
+}
+#schedule-title, #con-title {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 40px;
+}
+.contact-info{
+  font-family: 'Roboto Mono', monospace;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 30px;
+  margin-right: 14px;
+  margin-left: 14px;
+  border: 2px solid black;
+  color: black;
+  padding: 12px;
+  background-color: #FFC300;
+}
+.qr-code{
+  width: 50%;
+  margin-left: 5%;
+  margin-top: 30px;
+}
+.flex-contact{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
