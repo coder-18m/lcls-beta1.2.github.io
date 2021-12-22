@@ -1,40 +1,147 @@
-body{
+*{
   margin: 0;
+  padding: 0;
 }
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+body{
 
-
-nav li{
+}
+#logo{
+  height: 40px;
+}
+.navbar{
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  align-items: center;
+}
+.navbar li{
+  list-style: none;
   display: inline;
-  margin-bottom: 20px;
+  padding-left: 10px;
 }
-.title{
-  position: absolute;
-  margin-left: 40px;
-  color: white;
-  font-family: 'Roboto Mono', monospace;
-  font-size: 30px;
-  letter-spacing: 10px;
-  font-weight: lighter;
-}
-nav a{
-  font-family: 'Roboto Mono', monospace;
-  margin-right: 40px;
+.navbar a {
+  padding-right: 13px;
+  padding-left: 13px;
   text-decoration: none;
+  font-family: 'Roboto Mono', monospace;
   color: black;
+  border: 2px solid black;
+  box-shadow: 2px 2px gray;
+}
+.navbar a:hover{
+  background-color: #CAC1BC;
+}
+.sc-title{
+  font-family: 'Roboto Mono', monospace;
+
+  text-align: center;
+  color: white;
+  font-size: 38px;
+  margin-left: 10px;
+  margin-bottom: 60px;
+
+  letter-spacing: 10px;
+  margin-top: 40px;
+}
+.sc-sub{
+  text-align: center;
+
+  font-family: 'Roboto Mono', monospace;
+  border: 2px solid #FFC300;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+ color: #FFC300;
+ padding: 16px;
+}
+.top-container{
+  display: flex;
+  flex-direction: column;
+  margin-top: -500px;
+  margin-bottom: 400px;
+}
+
+#about{
+  font-family: 'Roboto Mono', monospace;
+  text-align: center;
+  font-size: 63px;
+
+  margin-bottom: 0px;
+  margin-top: -180px;
+}
+@media (min-width: 535px) {
+  #about{
+    margin-top: -100px;
+  }
+}
+/* NAV BAR STYLING FOR NONMOBILE */
+@media (max-width:995px) {
+  .sc-sub-F{
+    display: none;
+  }
+  .sc-title-F{
+    display: none;
+  }
+}
+@media (min-width:994px) {
+  #logo{
+    margin-left: -200px;
+    height: 60px;
+  }
+  .navbar ul{
+    margin-right: -200px;
+  }
+  .navbar a{
+    font-size: 20px;
+    box-shadow: 4px 4px gray;
+  }
+  .sc-sub{
+    display: none;
+  }
+  .sc-title{
+    display: none;
+  }
+  .sc-sub-F{
+    text-align: center;
+    position: sticky;
+    font-family:
+     'Roboto Mono', monospace;
+    border: 2px solid #FFC300;
+    color: #FFC300;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    font-size: 20px;
+    width: 60%;
+    margin-left: 30%;
+    margin-right: 10%;
+    margin-top: 100px;
+  }
+  .sc-title-F{
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    font-size: 60px;
+    margin-top: -300px;
+    margin-left: 20px;
+  }
+  #about{
+    margin-top: -130px;
+    padding-top: 300px;
+  }
 
 }
-nav a:hover{
-  text-decoration: underline;
-}
 
-nav ul{
 
-}
-.logo {
-    display: inline-block;
-    vertical-align: top;
-    width: 14%;
-    float: left;
 
         /* if you want it vertically middle of the navbar. */
 }
@@ -42,26 +149,13 @@ nav ul{
   padding-top: 30px;
   float: right;
 }
-.sub-title{
-  position: absolute;
 
-  color: #FFC300;
-  left: 50%;
-  border-style: solid;
-  padding-right: 40px;
-  padding-left: 40px;
-  font-family: 'Roboto Mono', monospace;
-  text-align: center;
+
+
+.background-img{
+  margin: 0;
+  padding: 0;
 }
-#about{
-  font-family: 'Roboto Mono', monospace;
-  text-align: center;
-  font-size: 80px;
-  margin-bottom: 0px;
-  margin-top: 30px;
-}
-
-
 
 
 #schedule-title, #con-title {
@@ -69,13 +163,4 @@ nav ul{
   text-align: center;
   font-family: 'Roboto Mono', monospace;
   font-size: 60px;
-}
-.container{
-
-}
-.container div{
-  display: flex;
-  justify-content: space-between;
-  margin-top: -300px;
-  justify-content: center;
 }
