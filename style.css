@@ -24,21 +24,21 @@ body{
   padding-bottom: 20px;
   align-items: center;
 }
-.navbar li{
+.link{
   list-style: none;
   display: inline;
   padding-left: 10px;
 }
-.navbar a {
+.navbar-a{
   padding-right: 13px;
   padding-left: 13px;
-  text-decoration: none;
+    text-decoration: none;
   font-family: 'Roboto Mono', monospace;
   color: black;
   border: 2px solid black;
   box-shadow: 2px 2px gray;
 }
-.navbar a:hover{
+.navbar-a:hover{
   background-color: #CAC1BC;
 }
 .sc-title{
@@ -98,10 +98,10 @@ body{
     margin-left: -200px;
     height: 60px;
   }
-  .navbar ul{
+  .navbar-ul{
     margin-right: -200px;
   }
-  .navbar a{
+  .navbar-a{
     font-size: 20px;
     box-shadow: 4px 4px gray;
   }

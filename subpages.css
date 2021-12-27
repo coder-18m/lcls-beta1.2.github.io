@@ -50,11 +50,26 @@ hr{
 }
 #link{
     font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
 }
-.item-con-link{
-  margin-right: 20px;
+.item-con-link {
+  margin-right: 80px;
   text-align: center;
 }
 .item-con{
   margin-left: 20px;
 }
+#email-stuff{
+  font-family: 'Roboto Mono', monospace;
+  text-align: center;
+  margin-top: 16px;
+  text-decoration: underline;
+}
+.con-ul li {
+    font-size: 20px;
+    margin-top: 26px;
+    margin-bottom: 26px;
+    margin-left: 26px;
+    list-style-type: square;
+    font-family: 'Roboto Mono', monospace;
+ }
