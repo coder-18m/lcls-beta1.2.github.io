@@ -91,7 +91,7 @@ body{
   }
 }
 /* NAV BAR STYLING FOR NONMOBILE */
-@media (max-width:995px) {
+@media (max-width:1024px) {
   .sc-sub-F{
     display: none;
   }
@@ -99,7 +99,7 @@ body{
     display: none;
   }
 }
-@media (min-width:994px)  and (-webkit-min-device-pixel-ratio: 1) {
+@media (min-width:1025px)  and (-webkit-min-device-pixel-ratio: 1) {
   #logo{
     margin-left: -200px;
     height: 60px;
